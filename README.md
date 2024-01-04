@@ -149,6 +149,7 @@ During this project, I used Python as the main programming
 language, and the libraries I imported during this project are
 as follows:
 
+![image](https://github.com/Daanishquadri/CreditCardFraud/assets/84735952/743c78d0-caaa-4884-ac39-03d79774bb51)
 # I. Imported libraries during the project.
 
 Once the libraries were created some of them were getting
@@ -160,6 +161,7 @@ reference I was unable to retrieve all the data as the file was
 secured I was only able to get the range from V1 to V28
 which was found out once I had the data file opened.
 
+<img width="492" alt="image" src="https://github.com/Daanishquadri/CreditCardFraud/assets/84735952/42261826-b0ea-42ec-8d30-c2158547ceae">
 # II. Attached is the dataset with the range V1 to V28.
 
 This dataset contains transactions made by credit cards in
