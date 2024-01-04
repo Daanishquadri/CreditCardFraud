@@ -162,6 +162,7 @@ secured I was only able to get the range from V1 to V28
 which was found out once I had the data file opened.
 
 <img width="492" alt="image" src="https://github.com/Daanishquadri/CreditCardFraud/assets/84735952/42261826-b0ea-42ec-8d30-c2158547ceae">
+
 # II. Attached is the dataset with the range V1 to V28.
 
 This dataset contains transactions made by credit cards in
@@ -221,8 +222,13 @@ on top of the following page for better understanding. This
 graphic depiction can be a useful tool for examining the
 arrangement of the dataset, the distribution of its variables,
 and any obvious trends or irregularities.
-IV. Visualization and code.
-III. Correlation matrix for creditcard.csv
+# IV. Visualization and code.
+
+![image](https://github.com/Daanishquadri/CreditCardFraud/assets/84735952/5c10c307-c4c7-4b20-85c5-44dc6121a26d)
+
+# III. Correlation matrix for creditcard.csv
+
+
 Once I had done the coding part I went ahead and plotted
 the correlation matrix and then I went ahead and found out
 the accuracy, total number of transactions, Number of
