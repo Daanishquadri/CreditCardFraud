@@ -246,67 +246,70 @@ Model, F1 score, and the confusion matrix for Random
 Forest Model, Accuracy score of the XG Boost model, F1
 score, and the confusion matrix for XG Boost model are
 provided in the images below.
-IV. Out of the 284807 transactions there are 284315
+
+# IV. Out of the 284807 transactions there are 284315
 transactions which are normal and the rest 492 transactions
 are fraudulent which is 0.17%
-V. Minimum and Maximum Amount of Data
-VI. Data shape before and after dropping external deciding
+
+<img width="241" alt="image" src="https://github.com/Daanishquadri/CreditCardFraud/assets/84735952/c813b741-4f7d-4b86-8083-10753367192d">
+
+# V. Minimum and Maximum Amount of Data
+
+<img width="240" alt="image" src="https://github.com/Daanishquadri/CreditCardFraud/assets/84735952/f37780f6-4222-49ae-af61-c8b68f55647d">
+
+# VI. Data shape before and after dropping external deciding
 factor(time) and removing duplicate transactions.
-VII. Decision Tree Model Data
-VIII. K-Nearest Neighbor Model Data
-IX. Logistic Regression Model.
-X. Random Forest Model
-XI. XG Boost Model.
-V. Results
-Model Accuracy F1 Score
-Decision Tree 0.9992889 0.776255
-K-Nearest
-Neighbors
-0.9995066 0.836538
-Logistic
-Regression
-0.9991148 0.693467
-Random Forest 0.9993615 0.784313
-XG Boost 0.9995211 0.842105
-VI. Conclusion
-In conclusion We used a variety of machine learning
-models, including the XGBoost, K-Nearest Neighbors,
-Logistic Regression, Decision Tree, Support Vector, and
-Random Forest models, in our thorough investigation of
-credit card fraud detection. The most successful of these
-was the XGBoost model, which attained an amazing
-accuracy rate of 99.95%. Because our dataset is balanced,
-this accuracy rate—which is clearly the highest among the
-six models—is really remarkable. It is important to
-emphasize that, considering the balanced distribution of
-data towards one class, the achieved accuracy is relatively
-predicted. Attaining a high accuracy score can be
-misleading in fraud detection circumstances, since the
-incidence of fraudulent transactions is generally far smaller
-than that of genuine ones. In order to investigate our
-models' performance further, we looked at the confusion
-matrix. We found that, fortunately, our XGBoost model is
-not overfit, which suggests that it is a reliable and broadly
-applicable model. However, I focused on a more
-informative statistic—the Area Under the Precision-Recall
-Curve (AUPRC)—after realizing the drawbacks of utilizing
-accuracy as the only evaluation metric in unbalanced
-categorization settings. This choice was motivated by the
-class imbalance ratio since AUPRC offers a more
-sophisticated knowledge of model performance, especially
-when addressing uncommon occurrences like fraud. Even if
-the XGBoost model performs well in terms of accuracy and
-resilience, it is important to recognize the change that was
-performed on the training set. The Principal Component
-Analysis (PCA) transformation of the features used for
-model training suggests that the model is operating with a
-condensed version of the original variables. Although this
-increases productivity and lowers computing complexity, it
-is crucial to understand the outcomes in light of this change.
-In conclusion, XGBoost has been identified as an
-exceptional performer in credit card fraud detection as a
-result of our thorough review approach, which included a
-variety of models and evaluation measures. The
-comprehension of our model's effectiveness in tackling the
-problems presented by imbalanced datasets in fraud
-detection situations is enriched by the insights obtained
+
+<img width="241" alt="image" src="https://github.com/Daanishquadri/CreditCardFraud/assets/84735952/ac55e2da-ea27-453a-9c50-0e6666f1c194">
+
+# VII. Decision Tree Model Data
+
+<img width="241" alt="image" src="https://github.com/Daanishquadri/CreditCardFraud/assets/84735952/8b4e383f-07a3-4a20-9802-f25577d16fcb">
+
+# VIII. K-Nearest Neighbor Model Data
+
+<img width="241" alt="image" src="https://github.com/Daanishquadri/CreditCardFraud/assets/84735952/c9256a6b-e6cc-484c-a2ac-44604ddac866">
+
+# IX. Logistic Regression Model.
+
+<img width="241" alt="image" src="https://github.com/Daanishquadri/CreditCardFraud/assets/84735952/2e7fb4f6-861f-42a1-8fb1-e0bf9d345681">
+
+# X. Random Forest Model
+
+<img width="241" alt="image" src="https://github.com/Daanishquadri/CreditCardFraud/assets/84735952/41da00bf-2fc7-4ef3-9432-b3b2c696f578">
+
+# XI. XG Boost Model.
+
+<img width="241" alt="image" src="https://github.com/Daanishquadri/CreditCardFraud/assets/84735952/f99087c8-33a1-4392-ab53-eeabd9cc6e13">
+
+
+
+# V. Results
+
+<img width="320" alt="Screenshot 2024-01-04 at 11 06 09 AM" src="https://github.com/Daanishquadri/CreditCardFraud/assets/84735952/f4076c7c-64a2-412a-969f-100ecfe9ac72">
+
+# VI. Conclusion
+
+In conclusion We used a variety of machine learning models, including the XGBoost, K-Nearest Neighbors, Logistic Regression, Decision Tree, Support Vector, and Random Forest models, in our thorough investigation of credit card fraud detection. The most successful of these was the XGBoost model, which attained an amazing accuracy rate of 99.95%. Because our dataset is balanced, this accuracy rate—which is clearly the highest among the six models—is really remarkable. It is important to emphasize that, considering the balanced distribution of data towards one class, the achieved accuracy is relatively predicted. Attaining a high accuracy score can be misleading in fraud detection circumstances, since the incidence of fraudulent transactions is generally far smaller than that of genuine ones. In order to investigate our models' performance further, we looked at the confusion matrix. We found that, fortunately, our XGBoost model is not overfit, which suggests that it is a reliable and broadly applicable model. However, I focused on a more informative statistic—the Area Under the Precision-Recall Curve (AUPRC)—after realizing the drawbacks of utilizing accuracy as the only evaluation metric in unbalanced categorization settings. This choice was motivated by the class imbalance ratio since AUPRC offers a more sophisticated knowledge of model performance, especially when addressing uncommon occurrences like fraud. Even if the XGBoost model performs well in terms of accuracy and resilience, it is important to recognize the change that was performed on the training set. The Principal Component Analysis (PCA) transformation of the features used for model training suggests that the model is operating with a condensed version of the original variables. Although this increases productivity and lowers computing complexity, it is crucial to understand the outcomes in light of this change.In conclusion, XGBoost has been identified as an exceptional performer in credit card fraud detection as a result of our thorough review approach, which included a variety of models and evaluation measures. The comprehension of our model's effectiveness in tackling the problems presented by imbalanced datasets in fraud detection situations is enriched by the insights obtained from the confusion matrix, the class imbalance consideration, and the use of AUPRC.
+
+
+
+# VII. References
+
+Andrea Dal Pozzolo, Olivier Caelen, Reid A. Johnson and Gianluca Bontempi. Calibrating Probability with Undersampling for Unbalanced Classification. In Symposium on Computational Intelligence and Data Mining (CIDM), IEEE, 2015
+
+Dal Pozzolo, Andrea; Caelen, Olivier; Le Borgne, Yann-Ael; Waterschoot, Serge; Bontempi, Gianluca. Learned lessons in credit card fraud detection from a practitioner perspective, Expert systems with applications,41,10,4915-4928,2014, Pergamon
+
+Carcillo, Fabrizio; Dal Pozzolo, Andrea; Le Borgne, Yann-Aël; Caelen, Olivier; Mazzer, Yannis; Bontempi, Gianluca. Scarff: a scalable framework for streaming credit card fraud detection with Spark, Information fusion,41, 182-194,2018,Elsevier
+
+Carcillo, Fabrizio; Le Borgne, Yann-Aël; Caelen, Olivier; Bontempi, Gianluca. Streaming active learning strategies for real-life credit card fraud detection: assessment and visualization, International Journal of Data Science and Analytics, 5,4,285-300,2018,Springer International Publishing
+
+Bertrand Lebichot, Yann-Aël Le Borgne, Liyun He, Frederic Oblé, Gianluca Bontempi Deep-Learning Domain Adaptation Techniques for Credit Cards Fraud Detection, INNSBDDL 2019: Recent Advances in Big Data and Deep Learning, pp 78-88, 2019
+
+Fabrizio Carcillo, Yann-Aël Le Borgne, Olivier Caelen, Frederic Oblé, Gianluca Bontempi Combining Unsupervised and Supervised Learning in Credit Card Fraud Detection Information Sciences, 2019
+
+Yann-Aël Le Borgne, Gianluca Bontempi Reproducible machine Learning for Credit Card Fraud Detection - Practical Handbook
+
+Bertrand Lebichot, Gianmarco Paldino, Wissam Siblini, Liyun He, Frederic Oblé, Gianluca Bontempi Incremental learning strategies for credit cards fraud detection, IInternational Journal of Data Science and Analytics
+
+
