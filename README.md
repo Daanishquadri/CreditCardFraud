@@ -1,8 +1,11 @@
-Credit Card Fraud Detection Using Python And
-Machine Learning
-Link to Code: https://github.com/Daanishquadri/CreditCardFraud.git
-Link for the data: Credit Card Fraud Detection (kaggle.com)
-ABSTRACT This dataset included credit card transactions performed by cardholders throughout Europe in
+# Credit Card Fraud Detection Using Python And Machine Learning
+
+# Link to Code: https://github.com/Daanishquadri/CreditCardFraud.git
+# Link for the data: Credit Card Fraud Detection (kaggle.com)
+
+# ABSTRACT 
+
+This dataset included credit card transactions performed by cardholders throughout Europe in
 September 2013. This dataset shows the transaction that took place over a two-day period. Of the 284,807
 transactions, out of which 492 were fraudulent. Because of the extreme imbalance in the dataset, 0.172% of
 all transactions belong to the positive class(frauds). Its sole input variables are numbers that come from the
@@ -15,7 +18,9 @@ example-dependent learning. The response variable, ‘Class’, takes a value 0 
 the case of fraud. We advise calculating the accuracy using the Area Under the Precision-Recall
 Curve(AUPRC) in light of the class imbalance ratio. The accuracy of the confusion matrix has no bearing
 on imbalanced classification.
-I. INTRODUCTION
+
+# I. INTRODUCTION
+
 The unapproved use of credit card information for financial
 benefit is known as credit card fraud. Sensitive card
 information is used by thieves to conduct fraudulent
@@ -137,11 +142,15 @@ blocking, which includes temporary restrictions on
 questionable transactions. Notifying customers of suspected
 transactions gives them a chance to clarify or resolve any
 issues.
-II. Importing the Libraries and the dataset.
+
+# II. Importing the Libraries and the dataset.
+
 During this project, I used Python as the main programming
 language, and the libraries I imported during this project are
 as follows:
-I. Imported libraries during the project.
+
+# I. Imported libraries during the project.
+
 Once the libraries were created some of them were getting
 an error which was then fixed by installing the packages by
 the following command which was pip install numpy and
@@ -150,7 +159,9 @@ of the CSV file in which I had my data and just for
 reference I was unable to retrieve all the data as the file was
 secured I was only able to get the range from V1 to V28
 which was found out once I had the data file opened.
-II. Attached is the dataset with the range V1 to V28.
+
+# II. Attached is the dataset with the range V1 to V28.
+
 This dataset contains transactions made by credit cards in
 September 2013 by European cardholders. This dataset
 presents transactions that have occurred in two days. This
@@ -175,7 +186,10 @@ sending in the dataset for training and testing I figured out
 the dependent and the independent variables and labeled
 them as ‘X’ and ‘Y’ and once that was done I went ahead
 and split the dataset.
-III. Exploratory Data Analysis.
+
+
+# III. Exploratory Data Analysis.
+
 The majority of the variables in the dataset are numerical,
 and they are basically the result of a Principal Component
 Analysis (PCA) transformation. Principal components
